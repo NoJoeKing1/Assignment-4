@@ -1,0 +1,70 @@
+/* Write your CSS here! */
+
+#backVid {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+#realHeading {
+  position: absolute;
+  font-size: 100px;
+  margin-left: 600px;
+  opacity: 0.9;
+  top: 100px;
+  z-index: 1;
+}
+#playBtnPlay {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 105px solid rgba(255, 255, 255, 0.747);
+  border-bottom: 50px solid transparent;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+  display: block;
+  z-index: 1;
+}
+#playBtnPause {
+  width: 105px;
+  height: 105px;
+  background-color: transparent;
+  border-style: double;
+  border-color: rgba(255, 255, 255, 0.747);
+  border-width: 0px 0px 0px 50px;
+  margin-left: 1050px;
+  margin-right: auto;
+  margin-top: 535px;
+  opacity: 0.9;
+  z-index: 1;
+}
+body {
+  margin: 8px;
+  display: block;
+  z-index: -1;
+}
+#mainHeading {
+  color: red;
+}
+#testP {
+  color: green
+}
+.funParagraph {
+  color: green;
+}
+.image {
+  padding: 70px;
+}
+#feet {
+  color: gold;
+  text-shadow: 1px 1px gray;
+  z-index: -1;
+}
+
